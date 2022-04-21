@@ -13,3 +13,9 @@ ejecutados por el propio minishell y que no generarán la creación de un nuevo 
 - Admitirá redireccionamiento de la salida de un comando a un fichero, indicando “> fichero” al final de la línea
 - Admitirá procesos en segundo plano (background). Si al final de la línea de comandos hay un “&” el proceso se ejecutrá en segundo plano. Es decir, el shell no esperará a que acabe para seguir leyendo los siguientes comandos (aunque avisará cuando el proceso haya acabado, de forma similar a cómo lo hace el shell estándard).
 - Se admitirá la interrupción con Ctrl + C y Ctrl + Z
+
+<br>
+Notas:
+
+- Se han creado 4 niveles de dificultad, con cada nivel añadiendo más funciones al anterior. El programa final comentado es el contenido en 
+mi_shell.c
